@@ -240,7 +240,7 @@ Write submission files to `predictionAssignment_files/answers`.
 ```{r}
 pml_write_files = function(x){
   n = length(x)
-  path <- "predictionAssignment_files/answers"
+  path <- "C:/Users/502409752/Desktop/Coursera/Practical Machine Learning"
   for(i in 1:n){
     filename = paste0("problem_id_",i,".txt")
     write.table(x[i],file=file.path(path, filename),quote=FALSE,row.names=FALSE,col.names=FALSE)
